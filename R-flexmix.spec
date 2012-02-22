@@ -9,12 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.3-6.tar.gz
-Requires:         R-lattice R-modeltools R-multcomp 
-Requires:         R-methods R-stats R-stats4 
-Requires:         R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid R-lme4 R-mgcv R-mlbench R-mvtnorm R-nnet 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice R-modeltools R-multcomp
-BuildRequires:    R-methods R-stats R-stats4 
-BuildRequires:    R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid R-lme4 R-mgcv R-mlbench R-mvtnorm R-nnet 
+Requires:         R-lattice R-modeltools R-multcomp R-methods R-stats R-stats4
+Requires:         R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid R-lme4
+Requires:         R-mgcv R-mlbench R-mvtnorm R-nnet 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice
+BuildRequires:    R-modeltools R-multcomp R-methods R-stats R-stats4 
+BuildRequires:    R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid
+BuildRequires:    R-lme4 R-mgcv R-mlbench R-mvtnorm R-nnet
 
 %description
 FlexMix implements a general framework for finite mixtures of regression
