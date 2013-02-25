@@ -1,19 +1,21 @@
 %global packname  flexmix
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          2.3_6
+Version:          2.3.10
 Release:          1
 Summary:          Flexible Mixture Modeling
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.3-6.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/flexmix_2.3-10.tar.gz
 Requires:         R-lattice R-modeltools R-multcomp R-methods R-stats R-stats4
 Requires:         R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid R-lme4
-Requires:         R-mgcv R-mlbench R-mvtnorm R-nnet 
+Requires:         R-mgcv R-mlbench R-mvtnorm R-nnet
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-lattice
-BuildRequires:    R-modeltools R-multcomp R-methods R-stats R-stats4 
+BuildRequires:    R-modeltools R-multcomp R-methods R-stats R-stats4
 BuildRequires:    R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid
 BuildRequires:    R-lme4 R-mgcv R-mlbench R-mvtnorm R-nnet
 
@@ -44,7 +46,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/CITATION
 %doc %{rlibdir}/%{packname}/DESCRIPTION
-%doc %{rlibdir}/%{packname}/NEWS
+%doc %{rlibdir}/%{packname}/NEWS*
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/LICENSE
 %{rlibdir}/%{packname}/NAMESPACE
