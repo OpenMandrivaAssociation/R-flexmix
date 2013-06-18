@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.3.10
-Release:          1
+Release:          2
 Summary:          Flexible Mixture Modeling
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
