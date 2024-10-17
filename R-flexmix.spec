@@ -9,7 +9,7 @@ Release:          2
 Summary:          Flexible Mixture Modeling
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/flexmix_2.3-10.tar.gz
 Requires:         R-lattice R-modeltools R-multcomp R-methods R-stats R-stats4
 Requires:         R-MASS R-codetools R-diptest R-ellipse R-gclus R-grid R-lme4
